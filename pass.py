@@ -6,7 +6,7 @@ PASSWORD_RAHASIA = "rifangantengabis" # Ganti dengan password pilihan Anda
 
 # --- KONFIGURASI AI ---
 # Masukkan API Key Anda di sini
-genai.configure(api_key="AIzaSyBj0nnrrQ7dgwZgbqG87mpvPcktI1bNe1E")
+genai.configure(api_key="AIzaSyApWiv0jaEkaB-pC2Au5015hDoZpiAAX-E")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 st.set_page_config(page_title="Time Sheet EMT")
