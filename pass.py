@@ -6,10 +6,10 @@ PASSWORD_RAHASIA = "rifangantengabis" # Ganti dengan password pilihan Anda
 
 # --- KONFIGURASI AI ---
 # Masukkan API Key Anda di sini
-genai.configure(api_key="ISI_API_KEY_ANDA_DI_SINI")
+genai.configure(api_key="AIzaSyBj0nnrrQ7dgwZgbqG87mpvPcktI1bNe1E")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-st.set_page_config(page_title="My Secret AI App")
+st.set_page_config(page_title="Time Sheet EMT")
 
 # Tampilan Login Sederhana
 if "authenticated" not in st.session_state:
@@ -26,7 +26,7 @@ if not st.session_state.authenticated:
             st.error("Password Salah!")
 else:
     # --- TAMPILAN APLIKASI SETELAH LOGIN ---
-    st.title("🤖 Gemini AI Milikku")
+    st.title("TIME SHEET EMT")
     st.write("Selamat datang! Hanya Anda yang punya link dan password yang bisa di sini.")
     
     user_input = st.text_input("Ketik pertanyaan Anda:")
