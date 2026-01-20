@@ -19,7 +19,7 @@ if not st.session_state.authenticated:
     st.title("🔐 Akses Terbatas")
     user_pass = st.text_input("Masukkan Password untuk Menggunakan AI:", type="password")
     if st.button("Masuk"):
-        if user_pass == rifanma45:
+        if user_pass == PASSWORD_RAHASIA:
             st.session_state.authenticated = True
             st.rerun()
         else:
